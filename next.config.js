@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // This setting ensures Next.js outputs static HTML files
-  distDir: "out", // Specifies the build output directory
-  // Add any other needed configuration
+  // Vercel 部署所需配置
+  swcMinify: true,
+  reactStrictMode: true,
+  poweredByHeader: false,
+  // 不使用 export，而是使用 Vercel 兼容的輸出方式
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
