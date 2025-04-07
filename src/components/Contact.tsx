@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaGithub, FaMedium } from "react-icons/fa";
+import React from "react";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -12,16 +13,22 @@ export default function Contact() {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null);
+  const [submitStatus, setSubmitStatus] = useState<"success" | "error" | null>(
+    null
+  );
 
-  const handleChange = (e) => {
+  // 添加適當的型別註解
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormState({
       ...formState,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = async (e) => {
+  // 添加適當的型別註解
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 
