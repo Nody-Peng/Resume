@@ -32,32 +32,44 @@ export default function Certificates() {
   const certificates: Certificate[] = [
     {
       id: "cert1",
-      title: "前端開發工作坊結業證書",
-      date: "2023年6月",
-      issuer: "TechConf Taiwan",
-      type: "活動證書",
-      image: "/certificates/certificate1.jpg", // 請替換成實際圖片路徑
+      title: "第十屆 全國大專院校暨高中職 StoryMap 校園競賽 冠軍",
+      date: "2024年7月",
+      issuer: "ESRI",
+      type: "比賽證明",
+      image:
+        "/certificates/大專組第一名 誰可以？YouBi可 — 臺北市 YouBike 2.0 系統與騎乘特性的時空分析 國立政治大-1.png", // 請替換成實際圖片路徑
       description:
-        "完成為期三天的前端開發工作坊，內容包含 React, Next.js 和 TailwindCSS 的進階應用。",
+        "透過比賽實戰百萬筆資料處理，python pandas、numpy實戰，以及資料視覺化。更加熟稔ArcGIS技術應用。",
     },
     {
-      id: "cert2",
+      id: "第九屆 全國大專院校暨高中職 StoryMap 校園競賽 季軍",
       title: "資工系大三成績單",
-      date: "2023年1月",
-      issuer: "XX大學資工系",
-      type: "成績單",
-      image: "/certificates/transcript.jpg", // 請替換成實際圖片路徑
+      date: "2023年7月",
+      issuer: "ESRI",
+      type: "比賽證明",
+      image:
+        "/certificates/大專組第三名_文山調茶局_國立政治大學_StoryMap校園競賽得獎獎狀-1.png", // 請替換成實際圖片路徑
       description:
-        "大三上學期成績單，GPA 3.8/4.0，課程包含演算法、資料庫系統、網路安全等。",
+        "透過組織比賽安排比賽，提生領導能力，並提升地理資訊系統與資料處理的能力。",
     },
     {
       id: "cert3",
-      title: "全國大專院校程式競賽優勝證明",
-      date: "2022年11月",
-      issuer: "教育部資訊及科技教育司",
-      type: "比賽證明",
-      image: "/certificates/competition.jpg", // 請替換成實際圖片路徑
-      description: "參加2022年全國大專院校程式競賽，獲得團體組第三名。",
+      title:
+        "The NCKU LiDAR Winter School 2025: High Density Scanning for Forest Carbon and Building Model",
+      date: "2025年1月",
+      issuer: "NCKU 國立成功大學",
+      type: "活動證書",
+      image: "/certificates/NCKU_2025.jpg", // 請替換成實際圖片路徑
+      description: "XXX",
+    },
+    {
+      id: "cert4",
+      title: "低軌衛星自由空間雷射光通訊科學體驗營",
+      date: "2025年2月",
+      issuer: "NYCU 國立陽明交通大學",
+      type: "活動證書",
+      image: "/certificates/NCKU_2025.jpg", // 請替換成實際圖片路徑
+      description: "XXX",
     },
     // 可以繼續添加更多證書
   ];
