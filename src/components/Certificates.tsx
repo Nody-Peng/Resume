@@ -72,6 +72,15 @@ export default function Certificates() {
       image: "/certificates/低軌衛星.png", // 請替換成實際圖片路徑
       description: "對於光通訊以及雷達基站有更進一步的了解。",
     },
+    {
+      id: "cert5",
+      title: "優異成績證明",
+      date: "、、、",
+      issuer: "NCCU 國立政治大學",
+      type: "成績單",
+      image: "/certificates/成績優異證明.png", // 請替換成實際圖片路徑
+      description: "110-1、111-1、111-2 成績優異證明。",
+    },
     // 可以繼續添加更多證書
   ];
 
