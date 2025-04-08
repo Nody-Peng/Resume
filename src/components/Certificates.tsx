@@ -59,8 +59,9 @@ export default function Certificates() {
       date: "2025年1月",
       issuer: "NCKU 國立成功大學",
       type: "活動證書",
-      image: "/certificates/NCKU_2025.jpg", // 請替換成實際圖片路徑
-      description: "XXX",
+      image: "/certificates/NCKU_2025.png", // 請替換成實際圖片路徑
+      description:
+        "對於LiDAR的資料處理有更深一步的認識，也加深了對於這項技術的應用層面的認知。",
     },
     {
       id: "cert4",
@@ -68,8 +69,8 @@ export default function Certificates() {
       date: "2025年2月",
       issuer: "NYCU 國立陽明交通大學",
       type: "活動證書",
-      image: "/certificates/NCKU_2025.jpg", // 請替換成實際圖片路徑
-      description: "XXX",
+      image: "/certificates/低軌衛星.png", // 請替換成實際圖片路徑
+      description: "對於光通訊以及雷達基站有更進一步的了解。",
     },
     // 可以繼續添加更多證書
   ];
