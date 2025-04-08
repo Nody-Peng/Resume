@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaGithub, FaMedium } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaGithub, FaMedium } from "react-icons/fa";
 import React from "react";
 
 export default function Contact() {
@@ -183,9 +183,18 @@ export default function Contact() {
                       href="https://medium.com/@ablecck12"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-green-600 transition-colors"
+                      className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-slate-900 transition-colors"
                     >
                       <FaMedium className="text-white" />
+                    </motion.a>
+                    <motion.a
+                      whileHover={{ y: -5 }}
+                      href="https://www.facebook.com/nody.peng/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center hover:bg-slate-900 transition-colors"
+                    >
+                      <FaFacebook className="text-white" />
                     </motion.a>
                   </div>
                 </div>
