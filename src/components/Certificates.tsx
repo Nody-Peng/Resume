@@ -42,8 +42,8 @@ export default function Certificates() {
         "透過比賽實戰百萬筆資料處理，python pandas、numpy實戰，以及資料視覺化。更加熟稔ArcGIS技術應用。",
     },
     {
-      id: "第九屆 全國大專院校暨高中職 StoryMap 校園競賽 季軍",
-      title: "資工系大三成績單",
+      id: "cert2",
+      title: "第九屆 全國大專院校暨高中職 StoryMap 校園競賽 季軍",
       date: "2023年7月",
       issuer: "ESRI",
       type: "比賽證明",
